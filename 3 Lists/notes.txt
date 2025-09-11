@@ -1,0 +1,44 @@
+Lists in HTML 
+
+1.  Unordered List (<ul>)
+    Displays items with bullets (●).
+    Uses <li> for each list item.
+    Ex:
+    <ul>
+      <li>Reading</li>
+      <li>Coding</li>
+      <li>Gaming</li>
+    </ul>
+    type → changes bullet style (disc, circle, square).
+
+2.  Ordered List (<ol>)
+    Displays items with numbers or letters.
+    Uses <li> for each list item.
+    Ex:
+    <ol>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+    </ol>
+    type → 1 (default), A, a, I, i
+    start → set starting number
+
+3.  Description List (<dl>)
+    Used for terms and their descriptions.
+    <dt> → Defines the term.
+    <dd> → Defines the description.
+    Ex:
+    <dl>
+      <dt>HTML</dt>
+      <dd>Defines the structure of a webpage.</dd>
+      <dt>CSS</dt>
+      <dd>Used for styling the webpage.</dd>
+      <dt>JavaScript</dt>
+      <dd>Adds interactivity to the webpage.</dd>
+    </dl>
+
+->  Summary
+    Unordered List (<ul>) → Bullets (circle, square, disc).
+    Ordered List (<ol>) → Numbers, letters, roman numerals.
+    Description List (<dl>) → Term/definition pairs.
+    Lists can be nested inside one another.

@@ -1,0 +1,27 @@
+Text Formatting in HTML
+
+1.  Bold, Italic & Underline:
+    <b> → Bold text (just makes text bold, not important).
+    <strong> → Strongly emphasized text (bold + meaning = important).
+    <i> → Italic text (visual style only).
+    <em> → Emphasized text (italic + meaning = stress importance).
+    <u> → Underlined text.
+
+2.  Subscript & Superscript:
+    <sub> → Displays text lower (like chemical formulas).
+    <sup> → Displays text higher (like math powers).
+
+3.  Quotations:
+    <blockquote> → Used for longer quotes (indented by default).
+    <q> → Used for short inline quotes.
+
+4.  Code & Preformatted Text:
+    <code> → Displays inline code in monospace font.
+    <pre> → Preserves spacing, line breaks, and formatting.
+
+->  Summary:
+    Use <b> & <i> for styling only.
+    Use <strong> & <em> when meaning matters (important/emphasis).
+    <sub> & <sup> for formulas/numbers.
+    <blockquote> & <q> for quotes.
+    <code> & <pre> for code snippets.

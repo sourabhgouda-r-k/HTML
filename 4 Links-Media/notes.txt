@@ -1,0 +1,65 @@
+Links and Media in HTML
+
+1.  Hyperlinks (<a>)
+    Used to link one page to another.
+    Syntax: <a href="URL">Text</a>
+    Ex:
+    <a href="https://www.google.com">Visit Google</a>
+
+    Attributes:
+    href → URL of the link.
+    target="_blank" → Opens link in a new tab.
+    download → Downloads the linked file.
+    Ex:
+    <a href="resume.pdf" download>Download Resume</a>
+    <a href="about.html" target="_blank">Open About Page</a>
+
+2.  Images (<img>)
+    Used to display images.
+    Self-closing tag.
+    Ex:
+    <img src="image.jpg" alt="Description" width="300" height="200">
+
+    Attributes:
+    src → Path of the image (local or online).
+    alt → Alternate text (important for accessibility).
+    width, height → Resize image.
+
+3.  Audio (<audio>)
+    Used to embed audio files.
+    Ex:
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    Attributes:
+    controls → Adds play/pause buttons.
+    autoplay → Plays automatically (not recommended).
+    loop → Repeats audio.
+
+4.  Video (<video>)
+    Used to embed videos.
+    Ex:
+    <video width="400" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    Attributes:
+    controls, autoplay, loop, muted, poster="thumbnail.jpg"
+
+5.  Iframe (<iframe>)
+    Used to embed another webpage, YouTube video, or Google Maps.
+    Ex:
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        frameborder="0"         
+        allowfullscreen>
+    </iframe>
+
+->  Summary
+    <a> → Links between pages/files/websites.
+    <img> → Insert images with src and alt.
+    <audio> & <video> → Embed media with controls.
+    <iframe> → Embed external sites, videos, or maps.

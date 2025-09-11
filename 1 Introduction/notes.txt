@@ -1,0 +1,53 @@
+1.  What is HTML?
+    -> HTML stands for HyperText Markup Language.
+    -> It is the standard language for creating web pages.
+    -> It describes the structure of a webpage using different elements (called tags).
+
+    Structure of an HTML Document:
+    Every HTML file follows this basic structure:
+
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>Page Title</title>
+          </head>
+          <body>
+            <!-- Content goes here -->
+          </body>
+        </html>
+
+    Explanation:
+    <!DOCTYPE html> → Tells the browser this is an HTML5 document.
+    <html> → The root element, wraps the whole page.
+    <head> → Contains information about the page (metadata, title, styles, etc.).
+    <title> → The text shown in the browser tab.
+    <body> → Contains the visible content of the webpage (text, images, links, etc.).
+
+2.  Headings
+    Headings are used for titles and subtitles.
+    They go from <h1> (largest) to <h6> (smallest).
+    Ex:
+    <h1>Main Title</h1>
+    <h2>Subtitle</h2>
+    <h3>Smaller heading</h3>
+
+3.  Paragraphs
+    Paragraphs are written using the <p> tag.
+    Browsers automatically add space before and after each paragraph.
+    EX:
+    <p>This is my first paragraph.</p>
+    <p>This is another paragraph.</p>
+
+4.  Line Breaks & Horizontal Lines
+    <br> → Inserts a line break (moves text to next line).
+    <hr> → Inserts a horizontal line (used to separate content).
+    Ex:
+    <p>Hello<br>This is on a new line.</p>
+    <hr>
+    <p>Text after the line.</p>
+
+->  Summary:
+    HTML is the building block of web pages.
+    It uses tags to define content.
+    Basic structure = doctype → html → head → body.
+    Common tags in basics: <h1>–<h6>, <p>, <br>, <hr>.
