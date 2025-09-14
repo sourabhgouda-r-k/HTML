@@ -1,0 +1,73 @@
+Forms in HTML
+
+1.  What is a Form?
+    An HTML form is used to collect user input and send it to a server for processing.
+    Commonly used in login pages, registration forms, search boxes, surveys, etc.
+
+2.  Common Form Elements
+
+a). Input fields: 
+    Ex:
+    <input type="text" placeholder="Enter your name">
+    <input type="password" placeholder="Enter your password">
+    <input type="email" placeholder="Enter your email">
+    <input type="number" placeholder="Enter your age">
+    Types: text, password, email, number, date, file, checkbox, radio, submit, reset.
+
+b). Labels:
+    Ex:
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+c). Textarea (multi-line input):
+    Ex:
+    <textarea rows="4" cols="40" placeholder="Enter your message"></textarea>
+
+d). Select (Dropdown):
+    Ex:
+    <select>
+       <option value="india">India</option>
+       <option value="usa">USA</option>
+       <option value="uk">UK</option>
+    </select>
+
+e). Checkbox:   
+    Ex: 
+    <input type="checkbox" name="hobby" value="reading"> Reading
+    <input type="checkbox" name="hobby" value="sports"> Sports
+
+f). Radio:
+    Ex:
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+
+g). Buttons:
+    Ex:
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <button type="button">Click Me</button>
+
+-> Summary 
+
+    Forms are used to collect user input and send it to a server.
+
+    Common Form Elements:
+
+    Input fields → text, password, email, number, date, file, etc.
+    Label → connects text to input.
+    Textarea → multi-line text input.
+    Select/Option → dropdown menus.
+    Checkbox → multiple selections.
+    Radio → single selection.
+    Buttons → submit, reset, button.
+
+    Important Attributes:
+
+    name → identifies input data.
+    value → default value.
+    placeholder → hint text.
+    required → makes input mandatory.
+    disabled / readonly → restricts editing.
+
+
+
