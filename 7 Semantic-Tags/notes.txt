@@ -1,0 +1,29 @@
+Semantic Tags
+
+    What are Semantic Tags?
+
+    Semantic tags clearly describe the meaning of the content inside them.
+    They help browsers, search engines, and developers understand the structure of a webpage.
+    Example: <header> means "page header", <footer> means "page footer".
+
+    Why Use Semantic Tags?
+    
+    Improves readability of code.
+    Better for SEO (search engines can understand the content).
+    Helps screen readers (accessibility for blind users).
+    Makes page structure organized and maintainable.
+
+    Common Semantic Tags
+
+    Tag	Purpose
+    <header>	Represents the top section (logo, navigation).
+    <nav>	Navigation links menu.
+    <main>	Main unique content of the page.
+    <section>	Groups related content together.
+    <article>	Represents independent content (blog post, news article).
+    <aside>	Sidebar content (ads, related links).
+    <footer>	Bottom section (credits, contact info).
+    <figure>	Groups an image with a caption.
+    <figcaption>	Caption for the figure.
+    <mark>	Highlights text.
+    <time>	Represents date/time.
