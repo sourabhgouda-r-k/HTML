@@ -1,0 +1,31 @@
+Attributes
+
+1.  What are Attributes?
+    Attributes give extra information about an HTML element.
+    Written inside the start tag.
+    Ex:
+    <img src="image.jpg" alt="A picture" width="200" height="200">
+    <a href="https://example.com" target="_blank">Visit</a>
+
+    Common Attributes
+    id → unique identifier.
+    class → used for grouping & styling.
+    style → inline CSS.
+    title → tooltip text.
+    alt → alternative text for images.
+    src → source of image, video, or audio.
+    href → link destination.
+
+2.  What is Metadata?
+    Metadata = data about data.
+    In HTML, metadata gives information about the page (not visible to users).
+    Defined inside the <head> section using <meta> tags.
+    Ex:
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Practice Repo">
+    <meta name="keywords" content="HTML, Practice, Learning">
+    <meta name="author" content="Sourabhgouda">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+

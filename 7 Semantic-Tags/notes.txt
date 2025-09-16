@@ -1,19 +1,19 @@
 Semantic Tags
 
-    What are Semantic Tags?
+1.  What are Semantic Tags?
 
     Semantic tags clearly describe the meaning of the content inside them.
     They help browsers, search engines, and developers understand the structure of a webpage.
     Example: <header> means "page header", <footer> means "page footer".
 
-    Why Use Semantic Tags?
+2.  Why Use Semantic Tags?
     
     Improves readability of code.
     Better for SEO (search engines can understand the content).
     Helps screen readers (accessibility for blind users).
     Makes page structure organized and maintainable.
 
-    Common Semantic Tags
+3.  Common Semantic Tags
 
     Tag	Purpose
     <header>	Represents the top section (logo, navigation).
