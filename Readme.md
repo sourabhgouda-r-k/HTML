@@ -17,3 +17,4 @@ HTML Topics Covered
 Objective
 -> Learn and practice HTML from basics to advanced.
 -> Understand semantic and accessible HTML.
+-> Do Projects using HTML.
